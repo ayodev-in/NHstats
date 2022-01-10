@@ -8,11 +8,11 @@
 
  async function getData() { 
 
-     const response = await fetch('https://yourWebsite.com/api/client/servers/SERVERID/resources', { 
+     const response = await fetch('https://panel.nighthost.tech.com/api/client/servers/putyourserveridhere/resources', { 
 
      headers : { 
 
-         'Authorization' : 'Bearer TOKEN' 
+         'Authorization' : 'Bearer API TOKEN' 
 
      } 
 
